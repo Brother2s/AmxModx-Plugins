@@ -20,10 +20,10 @@ new g_had_at4cs[33], Float:g_lastfire[33], Float:g_lastaim[33], g_aiming[33],
 g_smoke_id, g_spr_trail, g_spr_exp, is_reloading[33],
 cvar_radius, cvar_maxdamage
 
-new const v_model[] = "models/BiohazardExtras/v_at4ex.mdl"
-new const p_model[] = "models/BiohazardExtras/p_at4ex.mdl"
-new const w_model[] = "models/BiohazardExtras/w_at4ex.mdl"
-new const s_model[] = "models/BiohazardExtras/s_rocket.mdl"
+new const v_model[] = "models/v_at4ex.mdl"
+new const p_model[] = "models/p_at4ex.mdl"
+new const w_model[] = "models/w_at4ex.mdl"
+new const s_model[] = "models/s_rocket.mdl"
 
 new const at4cs_sound[5][] = {
 	"weapons/at4-1.wav", // Fire Sound
