@@ -1,12 +1,4 @@
 
-
-/* AMX Mod script
-* 
-* (c) 2013, Alicx[{DARK}((-__-))]
-* 
-*
-*/
-
 #define PLUGIN "Golden M4a1"
 
 #include <amxmodx>
