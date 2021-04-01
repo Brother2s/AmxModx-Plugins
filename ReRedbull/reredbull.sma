@@ -95,7 +95,7 @@ public client_disconected(iPlayer) {
 @AddHealth(const iTaskID) {
 	new iPlayer = iTaskID - 888956;
 	if(is_user_connected(iPlayer) && get_entvar(iPlayer, var_health) < float(iCvars[RHealth]) && iStop[iPlayer]) {
-		set_entvar(iPlayer, var_health, Float:get_entvar(iPlayer, var_health) + 1.0);
+		set_entvar(iPlayer, var_health, Float:get_entvar(iPlayer, var_health) + float(iCvars[RUpHealth]));
 		set_task(1.0,"@AddHealth",iPlayer+888956);
 	}
 }
