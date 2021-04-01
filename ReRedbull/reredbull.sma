@@ -102,7 +102,9 @@ public client_disconected(iPlayer) {
 @ResetMaxSpeed(const iPlayer) {
 	if(iStop[iPlayer]) {
 		set_entvar(iPlayer, var_maxspeed,Float:float(iCvars[RSpeed]));
+		return HC_SUPERCEDE;
 	}
+	return HC_CONTINUE;
 }
 bool:IsCanUse(const iPlayer) {
 	new iNumT;
